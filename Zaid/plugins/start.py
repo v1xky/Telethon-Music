@@ -1,32 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@v1xky 
-ITZ-ZAID
-/
-Telethon-Music
-Public
-Code
-Issues
-Pull requests
-3
-Projects
-Security
-Insights
-Telethon-Music/Zaid/plugins/start.py /
-@ITZ-ZAID
-ITZ-ZAID Update start.py
-Latest commit 2404764 on Sep 4
- History
- 2 contributors
-@ITZ-ZAID@NotReallyCarbon
-48 lines (42 sloc)  2.58 KB
-
 from Zaid import Zaid, BOT_USERNAME
 from Config import Config
 from telethon import events, Button
@@ -75,17 +46,3 @@ async def _(event):
         [Button.url("🗣️ ꜱᴜᴘᴘᴏʀᴛ", f"https://t.me/{Config.SUPPORT}"), Button.url("📣 ᴜᴘᴅᴀᴛᴇꜱ", f"https://t.me/{Config.CHANNEL}")],
         [Button.inline("ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", data="help")]])
        return
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
